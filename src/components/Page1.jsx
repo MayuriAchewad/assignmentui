@@ -12,28 +12,30 @@ import {
 export const Page1 = () => {
   return (
     <div className="mainparent">
-        <Grid item xs={10} sm={6} md={6} lg={6} xl={6}>
+      <Grid container spacing={2}>
+        <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
       <img
         src="./Images/Osumare Logo-01 (2) 4.png"
-        sx={{xs:160, sm:165, md:206, lg:212, xl:172}}
+        
         height="100px"
         alt=""
       />
     </Grid>
-    <Grid align="end" item xs={12} sm={6} md={6} lg={6} xl={6}>
+    <Grid align="end"  item xs={6} sm={6} md={6} lg={6} xl={6}>
       <Button
         sx={{
           border: "1px solid #000C1A",
           color: "#000C1A",
           padding: "10px, 24px, 10px, 24px",
-          width: {xs:194, sm:200, md:206, lg:212, xl:216},
+          width:216,
+          marginTop:3,
           height: 44,
           gap: "4px",
         }}
-        //216
       >
         <Typography align="center">Contact us</Typography>
       </Button>
+    </Grid>
     </Grid>
     <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
       <Typography

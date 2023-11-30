@@ -82,8 +82,29 @@ export const Page9 = () => {
             
             </Grid>
             <Grid align="center" item xs={12} sm={12} md={12} lg={12} xl={12}>
-                    <Button variant='outlined'>Get Started</Button>
-                </Grid>
+<Button
+        sx={{
+          bgcolor: "#0078FF",
+          borderRadius: "32px",
+          width: "408px",
+          height: "56px",
+          padding: "13px 136px 13px 136px",
+          gap: "4px",
+        }}
+      >
+        <Typography
+          sx={{
+            color: "#FFFFFF",
+            fontFamily: "Montserrat",
+            fontWeight: 700,
+            size: "24px",
+            lineHeight: "30px",
+            textAlign: "center",
+          }}
+        >
+          Get started
+        </Typography>
+      </Button>                </Grid>
         </Grid>
         </CardContent>
         </Card>

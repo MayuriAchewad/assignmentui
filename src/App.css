@@ -7,6 +7,25 @@
       max-width: 100%;
       max-height: 100%;
   }
+  .img2{
+    max-width: 100%;
+      max-height: 100%;
+  }
+  .img3{
+    max-width: 100%;
+      max-height: 100%;
+  }
+  .img4{
+    max-width: 100%;
+      max-height: 100%;
+  }
+  .img5{
+    max-width: 100%;
+      max-height: 100%;
+  }
+}
+@media (max-width:767px) {
+  
 }
 
 @media (min-width:768px) {
@@ -14,4 +33,27 @@
       max-width: 796px;
       max-height: 538px;
   }
+  .img2 {
+    max-width: 391px;
+    max-height: 201.63px;
+}
+.img3{
+  max-width: 600px;
+    max-height: 464px;
+}
+.img4{
+  max-width: 62px;
+    max-height: 62px;
+}
+.img5{
+  max-width: 793px;
+    max-height: 736px;
+}
+}
+.img5{
+  margin-left: -100px;
+  opacity: 50%;
+}
+.card{
+  background: linear-gradient(300deg, #006FED, #B2D6FF 12%)
 }

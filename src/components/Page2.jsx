@@ -54,18 +54,18 @@ export const Page2 = () => {
             </p>
           </Grid>
           <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
-            <button
+            <Button
               style={{
                 backgroundColor: "#0078FF",
                 borderRadius: "32px",
-                width: "233px",
+                width: "243px",
                 height: "32px",
                 padding: "16.5px 64px 16.5px 64px",
                 gap: "4px",
               }}
             >
-              <span
-                style={{
+              <Typography
+                sx={{
                   color: "#FFFFFF",
                   fontFamily: "Montserrat",
                   fontWeight: 600,
@@ -75,8 +75,8 @@ export const Page2 = () => {
                 }}
               >
                 Get started
-              </span>
-            </button>
+              </Typography>
+            </Button>
           </Grid>
         </Grid>
       </Grid>

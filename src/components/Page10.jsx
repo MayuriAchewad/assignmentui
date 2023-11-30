@@ -17,8 +17,8 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 export const Page10 = () => {
   return (
-    <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
-      <Card>
+    <Grid  item xs={12} sm={12} md={12} lg={12} xl={12}>
+      <Card className="card">
         <CardContent>
           <Grid container spacing={2}>
             <Grid item xs={12} sm={12} md={12} lg={6} xl={6}>
@@ -244,6 +244,21 @@ export const Page10 = () => {
           </Grid>
         </CardContent>
       </Card>
+      <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+                  <Typography
+                    sx={{
+                      color: "#000C1A",
+                      fontFamily: "Montserrat",
+                      fontWeight: "500px",
+                      fontSize: "16px",
+                      lineHeight: "24px",
+                      textAlign: "center",
+                      letterSpacing:"0.3px"
+                    }}
+                  >
+                    © 2023 Osumare. All rights reserved.
+                  </Typography>
+                </Grid>
     </Grid>
   );
 };

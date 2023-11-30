@@ -39,9 +39,9 @@ export const Page5 = () => {
 Streamlined Strategies for Real Estate Success        </Typography>
       </Grid>
       <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-          <img src="./Images/bro.png" alt="" />
+          <img className="img2" src="./Images/bro.png" alt="" />
       </Grid>
-      <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
+      <Grid className="img2" item xs={12} sm={12} md={6} lg={6} xl={6}>
         <Typography
           sx={{
             color: "#000C1A",
@@ -52,9 +52,7 @@ Streamlined Strategies for Real Estate Success        </Typography>
           }}
         >
 Optimized Path to Property Purchase        </Typography>
-      {/* </Grid>
-      <Grid item xs={12} sm={12} md={6} lg={6} xl={6}> */}
-        <Typography
+     <Typography
           sx={{
             color: "#333333",
             fontFamily: "sans-serif",
@@ -65,13 +63,11 @@ Optimized Path to Property Purchase        </Typography>
         >
 In the dynamic realm of real estate, the journey from a property inquiry to a successful conversion demands a well-crafted approach. At Osumare, we specialize in guiding potential buyers through this journey seamlessly, maximizing inquiries-turned-conversions with expert strategies.      
 </Typography>
-      </Grid>
-      <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
       <Button
         sx={{
           bgcolor: "#0078FF",
           borderRadius: "32px",
-          width: "233px",
+          width: "243px",
           height: "32px",
           padding: "16.5px 64px 16.5px 64px",
           gap: "4px",

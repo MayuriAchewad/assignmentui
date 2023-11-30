@@ -63,7 +63,7 @@ export const Page6 = () => {
       ];
   return (
     <>
-         <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+         <Grid sx={{marginTop:20}} item xs={12} sm={12} md={12} lg={12} xl={12}>
         <Typography
           sx={{
             color: "#000C1A",
@@ -79,7 +79,7 @@ export const Page6 = () => {
       </Grid>
 
       {listItem2.map((item) => (
-        <Grid align="center" item xs={12} sm={12} md={6} lg={4} xl={3}>
+        <Grid align="center" item xs={12} sm={12} md={6} lg={6} xl={6}>
           <img
             src={`./Images/${item.url}.png`}
             width="128px"
@@ -107,7 +107,7 @@ export const Page6 = () => {
       </Grid>
 
       {listItem3.map((item) => (
-        <Grid align="center" item xs={12} sm={12} md={6} lg={4} xl={3}>
+        <Grid align="center" item xs={12} sm={12} md={6} lg={6} xl={6}>
           <img
             src={`./Images/${item.url}.png`}
             width="128px"

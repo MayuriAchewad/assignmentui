@@ -12,7 +12,7 @@ export const Page8 = () => {
   return (
     <>
     <Grid item xs={12} sm={12} md={8} lg={8} xl={8}>
-        <img src="./Images/vid.png" alt="" />
+        <img className="img3" src="./Images/vid.png" alt="" />
       </Grid>
       <Grid item xs={12} sm={4} md={4} lg={4} xl={4}>
         <Grid container spacing={2}>
@@ -23,7 +23,7 @@ export const Page8 = () => {
             <b>Tablish Khan</b>
           </Grid>
           <Grid item xs={1.5} sm={2} md={2} lg={2} xl={2}>
-            <img src="./Images/Symbol.png" alt="" />
+            <img className="img4" src="./Images/Symbol.png" alt="" />
           </Grid>
 
           <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
