@@ -25,10 +25,10 @@ export const Page2 = () => {
           Real Estate-Focused Digital Mastery
         </Typography>
       </Grid>
-      <Grid item xs={12} sm={12} md={6} lg={5} xl={5}>
+      <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
         <img src="./Images/cuate.png" width="507.12px" height="342px" alt="" />
       </Grid>
-      <Grid item xs={12} sm={12} md={12} lg={7} xl={7}>
+      <Grid item xs={12} sm={12} md={12} lg={6} xl={6}>
         <Grid container spacing={2}>
           <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
             <Typography
