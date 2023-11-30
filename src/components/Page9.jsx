@@ -76,7 +76,7 @@ export const Page9 = () => {
                     <label>Message</label>
                 </Grid>
             <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
-                    <TextField fullWidth placeholder='Enter Your Total No of Vehicles:'/>
+                    <TextField inputProps={{sx:{height:240}}} fullWidth placeholder='Enter Your Total No of Vehicles:'/>
                 </Grid>
             </Grid>
             

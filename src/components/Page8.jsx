@@ -43,6 +43,9 @@ export const Page8 = () => {
           </Grid>
         </Grid>
       </Grid>
+        <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+          <img className="img6" src="./Images/Frame 878.png" alt="" />
+        </Grid>
     </>
   )
 }
