@@ -16,17 +16,17 @@ export const Page4 = () => {
       desc: "Predictive insights to guide real estate strategies.",
     },
     {
-      url: "",
+      url: "flashlight-fill",
       title: "Targeted Buyer Persona",
       desc: "Understand and connect with your ideal property buyers.",
     },
     {
-      url: "",
+      url: "shield-check-fill",
       title: "Competitor Insights",
       desc: "Stand out in the property market with informed strategies.",
     },
     {
-      url: "",
+      url: "phone-find-fill",
       title: "Visual Content Appeal",
       desc:
         "Captivate buyers with appealing visuals and immersive experiences.",
